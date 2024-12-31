@@ -1,14 +1,13 @@
 .container {
-    height: 100vh;
-    background: #1a1a1a;
+    height: 100vh; 
+    background: var(--dark);
 }
 
 .main-grid {
-    height: 45%;
-    width: 50%;
-
-    grid-template-rows: 4fr 1.5fr 2.5fr 1fr;
-    grid-template-columns: 8fr 1fr 2fr;
+    display: grid; gap: 6px;
+    grid-template-rows: 7fr 3fr 5fr 3fr;
+    grid-template-columns: 9fr 1fr 1.5fr;
+    width: 55%; height: 48%;
 }
 
 .main-grid > div:nth-child(-n+3) {
@@ -16,24 +15,50 @@
 }
 
 .logo > img{
-    width: 12%;
+    width: 11%;
 }
 
 .title {
+    color: var(--orange);
     font-size: 2.05em;
-    color: #ff6600;
     font-family: "black ops one";
 }
 
 .tagline {
-    color: #ff9900;
-    line-height: 1.4em;
     text-align: center;
+    color: var(--pale);
+    font-size: 1.08em;
+    font-weight: 500;
+    line-height: 1.4em;
 }
 
-input {
-    width: calc(100% - 8px);
-    height: 100%;
+.inp {
+    width: 100%; height: 85%;
+    padding: 5px 12px;
+    font-size: .85em;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
 
-    margin: 4px;
+.acc {
+    background: var(--light);
+    color: var(--dark);
+}
+
+.quan {
+    background: var(--gray);
+    color: var(--white);
+}
+
+.quan::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.btn {
+    background: var(--pale);
+    color: var(--black);
+    font-weight: 600;
+    cursor: pointer;
 }
