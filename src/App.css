@@ -1,0 +1,39 @@
+.container {
+    height: 100vh;
+    background: #1a1a1a;
+}
+
+.main-grid {
+    height: 45%;
+    width: 50%;
+
+    grid-template-rows: 4fr 1.5fr 2.5fr 1fr;
+    grid-template-columns: 8fr 1fr 2fr;
+}
+
+.main-grid > div:nth-child(-n+3) {
+    grid-column: 1 / span 3;
+}
+
+.logo > img{
+    width: 12%;
+}
+
+.title {
+    font-size: 2.05em;
+    color: #ff6600;
+    font-family: "black ops one";
+}
+
+.tagline {
+    color: #ff9900;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+input {
+    width: calc(100% - 8px);
+    height: 100%;
+
+    margin: 4px;
+}

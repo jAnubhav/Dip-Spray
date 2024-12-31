@@ -1,5 +1,26 @@
 * {
     margin: 0; padding: 0;
-    font-family: "poppins";
+    font-family: "doppio one";
     box-sizing: border-box;
+}
+
+button {
+    border: none;
+}
+
+input, button {
+    outline: none;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.jc-center {
+    justify-content: center;
 }
