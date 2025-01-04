@@ -8,7 +8,8 @@
 }
 
 #main-grid {
-    gap: 5px; width: 50%; height: 50%;
+    gap: 5px; width: min(50%, 1100px); 
+    height: min(50%, 400px);
 
     grid-template-rows: 3.5fr 1.5fr 2fr 2fr;
     grid-template-columns: 13fr 1fr 2fr;
@@ -19,19 +20,19 @@
 }
 
 #logo-image {
-    width: 15%; margin: auto;
+    width: 12%; margin: auto;
 }
 
 #logo-name {
     color: var(--orange);
-    font-size: 2.4em;
+    font-size: 3em;
     font-family: "Rubik Moonrocks";
 }
 
 #tagline {
     text-align: center;
     color: var(--orange);
-    font-size: .95em;
+    font-size: 1.3em;
     font-weight: 500;
 }
 

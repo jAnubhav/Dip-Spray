@@ -15,7 +15,7 @@ const App: React.FC = () => {
 						Just a twist of the tap, and 1 Aptos DevNet token flows your way—fueling your blockchain innovations one drop at a time! 
 					</p> </div>
 
-					<div className="d-flex"> <input type="text" className="inp" id="acc" placeholder="Account Address" /> </div>
+					<div className="d-flex" id="acc-con"> <input type="text" className="inp" id="acc" placeholder="Account Address" /> </div>
 					<div className="d-flex"> <input type="number" className="inp" id="quan" min={1} defaultValue={1} max={10} /> </div>
 					<div className="d-flex"> <input type="button" className="inp" id="btn" value="Fuel It" /> </div>
 				</div>
