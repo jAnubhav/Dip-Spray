@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1920px) {
+    #container {
+        grid-template-rows: 1fr 80px;
+    }
+
+    footer {
+        font-size: .95em;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    #container {
+        grid-template-rows: 1fr 70px;
+    }
+
+    footer {
+        font-size: .85em;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #container {
+        grid-template-rows: 1fr 55px;
+    }
+
+    footer {
+        font-size: .75em;
+    }
+
+    #credit {
+        gap: 5px; padding: 5px 10px;
+    }
+}

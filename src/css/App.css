@@ -1,0 +1,78 @@
+#container {
+    grid-template-rows: 1fr 90px;
+    height: 100dvh;
+}
+
+#main-container {
+    background: var(--dark2);
+}
+
+#main-grid {
+    gap: 5px; width: 50%; height: 50%;
+
+    grid-template-rows: 3.5fr 1.5fr 2fr 2fr;
+    grid-template-columns: 13fr 1fr 2fr;
+}
+
+.long-sec {
+    grid-column: 1 /span 3;
+}
+
+#logo-image {
+    width: 15%; margin: auto;
+}
+
+#logo-name {
+    color: var(--orange);
+    font-size: 2.4em;
+    font-family: "Rubik Moonrocks";
+}
+
+#tagline {
+    text-align: center;
+    color: var(--orange);
+    font-size: .95em;
+    font-weight: 500;
+}
+
+.inp {
+    width: 100%;
+    padding: 8px 14px;
+    background: var(--dark3);
+    color: var(--light);
+    border-radius: 6px;
+}
+
+#quan {
+    text-align: center;
+}
+
+#quan::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#btn {
+    background: var(--disabled);
+    transition: .2s;
+}
+
+.active {
+    background: var(--orange);
+    cursor: pointer;
+}
+
+footer {
+    background: var(--dark);
+}
+
+#credit {
+    gap: 7px; padding: 6px 12px;
+    margin-inline: 3px;
+    background: var(--dark3);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+footer, #credit {
+    color: var(--light);
+}

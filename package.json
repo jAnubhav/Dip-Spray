@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An app to provide devnet faucet to blockchain accounts",
   "scripts": {
-    "start": "vite",
+    "start": "vite --host",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
