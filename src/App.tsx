@@ -16,7 +16,7 @@ const App: React.FC = () => {
 					<div className="d-flex jc-center long-sec"> <p id="logo-name">Dip Spray</p> </div>
 
 					<div className="d-flex jc-center long-sec"> <p id="tagline">
-						Just a twist of the tap, and 1 Aptos DevNet token flows your way - fueling your blockchain innovations one drop at a time!
+						Just a twist of the tap, and 1 Aptos DevNet token flows your way - fueling your blockchain innovations drop by drop!
 					</p> </div>
 
 					<div className="d-flex" id="acc-con">

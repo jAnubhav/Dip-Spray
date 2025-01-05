@@ -8,8 +8,8 @@
 }
 
 #main-grid {
-    gap: 5px; width: min(50%, 1000px); 
-    height: min(50%, 400px);
+    gap: 5px; width: min(60%, 1000px); 
+    height: min(50%, 360px);
 
     grid-template-rows: 3.5fr 1.5fr 2fr 2fr;
     grid-template-columns: 13fr 1fr 2fr;

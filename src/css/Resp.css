@@ -1,46 +1,19 @@
-@media only screen and (max-width: 1920px) {
-    #container {
-        grid-template-rows: 1fr 80px;
-    }
-
-    #main-grid {
-        width: min(50%, 900px); 
-        height: min(50%, 350px);
-    }
-
-    #logo-image {
-        width: 15%;
-    }
-
-    #logo-name {
-        font-size: 2.7em;
-    }
-
-    #tagline {
-        font-size: 1.1em;
-    }
-
-    footer {
-        font-size: .95em;
-    }
-}
-
 @media only screen and (max-width: 1440px) {
     #container {
         grid-template-rows: 1fr 70px;
     }
 
     #main-grid {
-        width: min(65%, 740px); 
-        height: min(50%, 300px);
+        width: min(75%, 750px); 
+        height: min(50%, 250px);
     }
 
     #logo-name {
-        font-size: 2.5em;
+        font-size: 2.3em;
     }
 
     #tagline {
-        font-size: .83em;
+        font-size: .85em;
     }
 
     footer {
@@ -51,11 +24,6 @@
 @media only screen and (max-width: 1024px) {
     #container {
         grid-template-rows: 1fr 60px;
-    }
-
-    #main-grid {
-        width: min(700px, 75%);
-        height: min(50%, 230px);
     }
 
     #logo-name {
@@ -80,7 +48,11 @@
         grid-template-rows: 3.5fr 1fr 2.5fr 1.5fr 1.5fr;
         grid-template-columns: 1fr 2fr;
 
-        width: min(550px, 80%);
+        width: min(80%, 550px);
+    }
+
+    #logo-image {
+        width: 130px;
     }
 
     .inp {
@@ -90,6 +62,10 @@
     .long-sec, #acc-con {
         grid-column: 1 /span 2;
     }
+
+    footer {
+        font-size: .8em;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -97,22 +73,17 @@
         width: 80%; height: 340px;
     }
 
-    #logo-image {
-        width: 30%;
-    }
-
     #logo-name {
         font-size: 2em;
     }
 
     #tagline {
-        font-size: .85em;
         padding: 20px 8px;
     }
 
     .inp {
         padding: 9px 15px;
-        font-size: .9em;
+        font-size: .85em;
     }
 }
 
@@ -122,13 +93,13 @@
     }
 }
 
-@media screen and (max-height: 400px) {
+@media screen and (max-height: 500px) {
     #container {
         grid-template-rows: 1fr 50px;
     }
 
     #main-grid {
-        height: 70%;
+        height: 50%;
     }
 
     #logo-image {
@@ -138,9 +109,5 @@
     .inp {
         padding: 6px 9px;
         font-size: .75em;
-    }
-
-    footer {
-        font-size: .8em;
     }
 }
