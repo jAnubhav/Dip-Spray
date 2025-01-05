@@ -8,6 +8,10 @@
         height: min(50%, 350px);
     }
 
+    #logo-image {
+        width: 15%;
+    }
+
     #logo-name {
         font-size: 2.7em;
     }
@@ -27,8 +31,8 @@
     }
 
     #main-grid {
-        width: 50%; 
-        height: min(50%, 280px);
+        width: min(65%, 740px); 
+        height: min(50%, 300px);
     }
 
     #logo-name {
@@ -50,7 +54,7 @@
     }
 
     #main-grid {
-        width: min(600px, 75%);
+        width: min(700px, 75%);
         height: min(50%, 230px);
     }
 
@@ -58,17 +62,8 @@
         font-size: 1.9em;
     }
 
-    #tagline {
-        font-size: .7em;
-    }
-
     .inp {
-        padding: 6px 9px;
-        font-size: .7em;
-    }
-
-    footer {
-        font-size: .8em;
+        padding: 6px 10px;
     }
 
     #credit {
@@ -85,12 +80,11 @@
         grid-template-rows: 3.5fr 1fr 2.5fr 1.5fr 1.5fr;
         grid-template-columns: 1fr 2fr;
 
-        width: min(450px, 70%);
-        height: min(50%, 220px);
+        width: min(550px, 80%);
     }
 
-    #logo-name {
-        font-size: 1.7em;
+    .inp {
+        font-size: .75em;
     }
 
     .long-sec, #acc-con {
@@ -100,11 +94,11 @@
 
 @media only screen and (max-width: 500px) {
     #main-grid {
-        width: 80%; height: 280px;
+        width: 80%; height: 340px;
     }
 
     #logo-image {
-        width: 25%;
+        width: 30%;
     }
 
     #logo-name {
@@ -117,56 +111,36 @@
     }
 
     .inp {
-        padding: 9px;
-        font-size: .8em;
+        padding: 9px 15px;
+        font-size: .9em;
     }
 }
 
 @media only screen and (max-width: 400px) {
     #main-grid {
-        width: 87%;
-    }
-
-    #logo-image {
-        width: 25%;
-    }
-
-    #logo-name {
-        font-size: 2em;
-    }
-
-    #tagline {
-        font-size: .85em;
-        padding: 20px 8px;
-    }
-
-    .inp {
-        padding: 9px;
-        font-size: .8em;
+        width: 85%;
     }
 }
 
-@media screen and (max-height: 320px) {
+@media screen and (max-height: 400px) {
+    #container {
+        grid-template-rows: 1fr 50px;
+    }
+
     #main-grid {
-        width: 90%;
+        height: 70%;
     }
 
     #logo-image {
-        width: 25%;
-    }
-
-    #logo-name {
-        font-size: 1.8em;
-    }
-
-    #tagline {
-        font-size: .8em;
-        padding: 20px 8px;
+        display: none;
     }
 
     .inp {
-        padding: 9px;
+        padding: 6px 9px;
+        font-size: .75em;
+    }
+
+    footer {
         font-size: .8em;
     }
-    
 }
