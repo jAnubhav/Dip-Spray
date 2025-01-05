@@ -1,19 +1,11 @@
 @media only screen and (max-width: 1440px) {
     #container {
-        grid-template-rows: 1fr 70px;
+        grid-template-rows: 1fr 65px;
     }
 
     #main-grid {
         width: min(75%, 750px); 
-        height: min(50%, 250px);
-    }
-
-    #logo-name {
-        font-size: 2.3em;
-    }
-
-    #tagline {
-        font-size: .85em;
+        height: min(50%, 280px);
     }
 
     footer {
@@ -22,10 +14,6 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    #container {
-        grid-template-rows: 1fr 60px;
-    }
-
     #logo-name {
         font-size: 1.9em;
     }
@@ -35,15 +23,11 @@
     }
 
     #credit {
-        gap: 5px; padding: 5px 10px;
+        padding: 5px 10px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    #container {
-        grid-template-rows: 1fr 75px;
-    }
-
     #main-grid {
         grid-template-rows: 3.5fr 1fr 2.5fr 1.5fr 1.5fr;
         grid-template-columns: 1fr 2fr;
