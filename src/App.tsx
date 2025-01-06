@@ -22,7 +22,7 @@ const App: React.FC = () => {
 	return (
 		<section className="d-grid" id="container">
 			<section className="d-flex jc-center" id="main-container">
-				<ToastContainer className="toast-grid" position="top-center" autoClose={2000} 
+				<ToastContainer className="toast-grid" position="top-center" autoClose={1700} 
 					hideProgressBar newestOnTop closeOnClick rtl={false} pauseOnFocusLoss={false} 
 					draggable pauseOnHover={false} theme="colored" transition={Slide} 
 				/>
