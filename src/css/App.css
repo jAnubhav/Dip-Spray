@@ -25,14 +25,14 @@
 
 #logo-name {
     color: var(--orange);
-    font-size: 2.3em;
+    font-size: 2.2em;
     font-family: "Rubik Moonrocks";
 }
 
 #tagline {
     text-align: center;
     color: var(--orange);
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 500;
 }
 
