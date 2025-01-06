@@ -15,6 +15,16 @@
     grid-template-columns: 13fr 1fr 2fr;
 }
 
+.toast-grid {
+    width: clamp(400px, 50%, 1200px);
+}
+
+.toast {
+    min-height: max-content;
+    width: 100%; padding: 10px 15px;
+    font-size: .9em;
+}
+
 .long-sec {
     grid-column: 1 /span 3;
 }
@@ -38,7 +48,7 @@
 
 .inp {
     width: 100%;
-    padding: 8px 14px;
+    padding: 10px 14px;
     background: var(--dark3);
     color: var(--light);
     border-radius: 6px;

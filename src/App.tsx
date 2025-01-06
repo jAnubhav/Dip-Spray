@@ -1,4 +1,5 @@
 import React from "react";
+import { toast, ToastContainer, Slide } from "react-toastify";
 
 import { Variables } from "./assets/funder";
 
@@ -8,9 +9,24 @@ import "./css/Resp.css";
 const App: React.FC = () => {
 	const { update_acc, update_quan, fund_account, acc_input, quan_input, btn_state } = Variables();
 
+	const take_action = async () => {
+		toast.info("Request Sent!", { 
+			pauseOnHover: false, transition: Slide, className: "toast" }); 
+		
+			await fund_account(); 
+		
+		toast.success("Fueled the Account!", { 
+			pauseOnHover: false, transition: Slide, className: "toast" }); 
+	};
+
 	return (
 		<section className="d-grid" id="container">
 			<section className="d-flex jc-center" id="main-container">
+				<ToastContainer className="toast-grid" position="top-center" autoClose={2000} 
+					hideProgressBar newestOnTop closeOnClick rtl={false} pauseOnFocusLoss={false} 
+					draggable pauseOnHover={false} theme="colored" transition={Slide} 
+				/>
+
 				<div className="d-grid" id="main-grid">
 					<div className="long-sec" id="logo-image"> <img src="img/logo.svg" alt="Logo" /> </div>
 					<div className="d-flex jc-center long-sec"> <p id="logo-name">Dip Spray</p> </div>
@@ -31,7 +47,7 @@ const App: React.FC = () => {
 
 					<div className="d-flex">
 						<input type="button" className={`inp ${btn_state}`} id="btn"
-							onClick={fund_account} value="Fuel It" />
+							onClick={take_action} value="Fuel It" />
 					</div>
 				</div>
 			</section>

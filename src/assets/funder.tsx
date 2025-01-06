@@ -24,12 +24,8 @@ export const Variables = () => {
 
     
     const fund_account = async () => {
-        set_btn("disabled");
-
-        for (let i = 0; i < quan_input; i++) await aptos.fundAccount(
-            { accountAddress: acc_input, amount: 100_000_000 });
-
-        set_btn("active");
+        set_btn("disabled"); for (let i = 0; i < quan_input; i++) await aptos.fundAccount(
+            { accountAddress: acc_input, amount: 100_000_000 }); set_btn("active");
     };
 
     return { update_acc, update_quan, fund_account, acc_input, quan_input, btn_state };
