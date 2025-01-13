@@ -84,8 +84,8 @@ Made with ❤️ by [jAnubhav](https://github.com/jAnubhav).
 
 ### 1. Main Screen
 *Show a screenshot of the input fields and the "Fuel It" button.*
-![Fueling It]("./img/Fueling It.png" "Fueling It")
+![Fueling It](./img/Fueling It.png "Fueling It")
 
 ### 2. Success Notification
 *Show the success toast after a request is completed.*
-![Task Completed]("./img/Task Completed.png" "Task Completed")
+![Task Completed](./img/Task Completed.png "Task Completed")
