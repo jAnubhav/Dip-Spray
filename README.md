@@ -67,6 +67,16 @@ The project uses the Aptos DevNet. Ensure you have the following:
 2. **NPM** (v6 or higher)  
 3. **Aptos SDK for JavaScript/TypeScript** (installed as part of dependencies)
 
+## Screenshots
+
+### 1. Main Screen
+*Show a screenshot of the input fields and the "Fuel It" button.*
+![Fueling It](./img/Fueling%20It.png "Fueling It")
+
+### 2. Success Notification
+*Show the success toast after a request is completed.*
+![Task Completed](./img/Task%20Completed.png "Task Completed")
+
 ## Contributing
 
 Contributions are welcome!  
@@ -79,13 +89,3 @@ Contributions are welcome!
 ## Credits
 
 Made with ❤️ by [jAnubhav](https://github.com/jAnubhav).  
-
-## Screenshots
-
-### 1. Main Screen
-*Show a screenshot of the input fields and the "Fuel It" button.*
-![Fueling It](./img/Fueling%20It.png "Fueling It")
-
-### 2. Success Notification
-*Show the success toast after a request is completed.*
-![Task Completed](./img/Task%20Completed.png "Task Completed")
