@@ -70,11 +70,9 @@ The project uses the Aptos DevNet. Ensure you have the following:
 ## Screenshots
 
 ### 1. Main Screen
-*Show a screenshot of the input fields and the "Fuel It" button.*
 ![Fueling It](./img/Fueling%20It.png "Fueling It")
 
 ### 2. Success Notification
-*Show the success toast after a request is completed.*
 ![Task Completed](./img/Task%20Completed.png "Task Completed")
 
 ## Contributing
