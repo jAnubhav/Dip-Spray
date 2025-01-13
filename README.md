@@ -32,3 +32,58 @@ npm start
 ```
 
 Open http://localhost:3000 in your browser to view the app.
+
+## Usage
+
+1. Enter your **Aptos account address** in the "Account Address" field.  
+2. Specify the **number of tokens** you need (1–10) in the quantity field.  
+3. Click the **"Fuel It"** button to submit your request.  
+4. Receive a notification upon successful token transfer.
+
+## Project Structure
+
+```bash
+.
+├── src
+│   ├── assets
+│   │   └── funder.ts     # Logic for funding accounts using the Aptos SDK
+│   ├── css
+│   │   ├── App.css       # Main styles
+│   │   └── Resp.css      # Responsive styles
+│   ├── img
+│   │   └── logo.svg      # App logo
+│   ├── App.tsx           # Main React component
+│   ├── index.tsx         # Entry Point of the Application
+│   └── index.css         # CSS for Common
+├── public
+│   └── index.html        # HTML template
+└── README.md             # Documentation
+```
+
+## Environment Setup
+
+The project uses the Aptos DevNet. Ensure you have the following:
+1. **Node.js** (v14 or higher)  
+2. **NPM** (v6 or higher)  
+3. **Aptos SDK for JavaScript/TypeScript** (installed as part of dependencies)
+
+## Contributing
+
+Contributions are welcome!  
+- Fork the repository.  
+- Create a feature branch: `git checkout -b feature-name`.  
+- Commit your changes: `git commit -m "Add new feature"`.  
+- Push to the branch: `git push origin feature-name`.  
+- Submit a pull request.  
+
+## Credits
+
+Made with ❤️ by [jAnubhav](https://github.com/jAnubhav).  
+
+## Screenshots
+
+### 1. Main Screen
+*Show a screenshot of the input fields and the "Fuel It" button.*
+
+### 2. Success Notification
+*Show the success toast after a request is completed.*
