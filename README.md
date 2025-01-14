@@ -70,10 +70,10 @@ The project uses the Aptos DevNet. Ensure you have the following:
 ## Screenshots
 
 ### 1. Main Screen
-![Fueling It](./img/Fueling%20It.png "Fueling It")
+![Fueling It](./img/sample/fueling%20it.png "Fueling It")
 
 ### 2. Success Notification
-![Task Completed](./img/Task%20Completed.png "Task Completed")
+![Task Completed](./img/sample/task%20completed.png "Task Completed")
 
 ## Contributing
 
