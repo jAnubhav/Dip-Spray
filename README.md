@@ -42,7 +42,7 @@ Open http://localhost:5173 in your browser to view the app.
 
 ## Project Structure
 
-```bash
+```php
 .
 ├── src
 │   ├── assets
