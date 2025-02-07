@@ -31,7 +31,7 @@ npm install
 npm start
 ```
 
-Open http://localhost:3000 in your browser to view the app.
+Open http://localhost:5173 in your browser to view the app.
 
 ## Usage
 
@@ -55,8 +55,7 @@ Open http://localhost:3000 in your browser to view the app.
 │   ├── App.tsx           # Main React component
 │   ├── index.tsx         # Entry Point of the Application
 │   └── index.css         # CSS for Common
-├── public
-│   └── index.html        # HTML template
+├── index.html            # HTML template
 └── README.md             # Documentation
 ```
 
