@@ -28,7 +28,7 @@ const App: React.FC = () => {
 				/>
 
 				<div className="d-grid" id="main-grid">
-					<div className="long-sec" id="logo-image"> <img src="img/logo.svg" alt="Logo" /> </div>
+					<div className="long-sec" id="logo-image"> <img src="./img/logo.svg" alt="Logo" /> </div>
 					<div className="d-flex jc-center long-sec"> <p id="logo-name">Dip Spray</p> </div>
 
 					<div className="d-flex jc-center long-sec"> <p id="tagline">
