@@ -31,7 +31,7 @@ npm install
 npm start
 ```
 
-Open http://localhost:3000 in your browser to view the app.
+Open http://localhost:5173 in your browser to view the app.
 
 ## Usage
 
@@ -42,7 +42,7 @@ Open http://localhost:3000 in your browser to view the app.
 
 ## Project Structure
 
-```bash
+```php
 .
 ├── src
 │   ├── assets
@@ -55,8 +55,7 @@ Open http://localhost:3000 in your browser to view the app.
 │   ├── App.tsx           # Main React component
 │   ├── index.tsx         # Entry Point of the Application
 │   └── index.css         # CSS for Common
-├── public
-│   └── index.html        # HTML template
+├── index.html            # HTML template
 └── README.md             # Documentation
 ```
 
@@ -66,6 +65,14 @@ The project uses the Aptos DevNet. Ensure you have the following:
 1. **Node.js** (v14 or higher)  
 2. **NPM** (v6 or higher)  
 3. **Aptos SDK for JavaScript/TypeScript** (installed as part of dependencies)
+
+## Screenshots
+
+### 1. Main Screen
+![Fueling It](./img/sample/fueling%20it.png "Fueling It")
+
+### 2. Success Notification
+![Task Completed](./img/sample/task%20completed.png "Task Completed")
 
 ## Contributing
 
@@ -79,11 +86,3 @@ Contributions are welcome!
 ## Credits
 
 Made with ❤️ by [jAnubhav](https://github.com/jAnubhav).  
-
-## Screenshots
-
-### 1. Main Screen
-*Show a screenshot of the input fields and the "Fuel It" button.*
-
-### 2. Success Notification
-*Show the success toast after a request is completed.*
