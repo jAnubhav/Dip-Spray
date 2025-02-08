@@ -4,7 +4,7 @@
   "description": "An app to provide devnet faucet to blockchain accounts",
   "scripts": {
     "start": "vite --host",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -14,11 +14,12 @@
     "@aptos-labs/ts-sdk": "^1.33.1",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-toastify": "^11.0.2",
     "typescript": "^5.7.2",
-    "vite": "^6.0.6"
+    "vite": "^6.1.0"
   },
   "devDependencies": {
     "process": "^0.11.10"
